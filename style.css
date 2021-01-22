@@ -4,7 +4,7 @@ body{
 
 section{
     margin-bottom: 150px;
-    padding-bottom: 150px;
+    padding-bottom: 120px;
 }
 .nav-area{
    
@@ -31,6 +31,7 @@ li{
 }
 .name-highlight{
     color:rgb(12, 47, 163) ;
+    font-size: 25px;
 
 }
 
@@ -93,7 +94,7 @@ li{
 }
 .hobby-area{
     margin-bottom: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 120px;
 }
 .car-images img{
     width: 100%;
@@ -129,7 +130,7 @@ li{
 .work-bg{
     padding-left: 150px;
     font-size: 30px;
-    padding-top: 100px;
+    padding-top: 50px;
     color:gold;
    
 }
@@ -145,22 +146,52 @@ li{
     margin-left: 150px;
     border-radius: 15px;
     width: 80%;
+    margin-top:-140px ;
     background-image: url("shapes/Group_33094_1.png");
     
 }
 
-.connected img{
-    width: 30%;
+.stay-connected{
+    width: 100%;
+    float: left;
 }
 
 .connected{
     margin-left: 470px;
-
+     padding-right:2%;
+    padding-bottom: 100px;
+   
 }
 
-.social-media{
-
-    float: left;
+.icon {
     
+list-style-type: none;
+  margin: 0;
+  padding: 0;
   
+
 }
+
+.nav-item{
+   width: 70%;
+   margin-top: -80px;
+   padding-left: 34%;
+    
+}
+  
+.nav-item img{
+
+    width: 25%;
+   
+    
+}
+
+.li-icon{
+    padding: 2px 2px;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+}
+
